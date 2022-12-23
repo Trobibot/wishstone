@@ -1,0 +1,25 @@
+.board-lane-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+    width: 100%;
+    padding: 64px;
+
+    background-color: bisque;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+}
+
+.board-lane-wrapper.top {
+    border-top: 2px solid #3c3c3c;
+}
+
+.board-lane-wrapper.bottom {
+    border-bottom: 2px solid  #3c3c3c;
+}
+
+.board-lane-wrapper:not(.selectable) .board-card-wrapper {
+    background-color: #b0b0b0 !important;
+    cursor: not-allowed;
+}

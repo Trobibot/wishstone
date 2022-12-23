@@ -7,7 +7,7 @@ export default function HomePage() {
                 <h1>WishStone</h1>
                 <h1>WishStone</h1>
             </div>
-            <button onClick={() => window.location.href = '/game' }>PLAY !</button>
+            <button onClick={() => window.location.href = '#/game' }>PLAY !</button>
         </div>
     )
 }

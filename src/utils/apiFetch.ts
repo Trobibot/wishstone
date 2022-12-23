@@ -17,7 +17,7 @@ export async function fetchCards() {
   const cards:  Card[]        = []
 
   for (const card of data)
-    cards.push(new Card(card.id, card.name, card.hp, card.damage, card.cost))
+    cards.push(new Card(card.id, card.name, card.hp, card.damage, card.cost, `https://eenscg1z.directus.app/assets/${card.artwork}`))
 
   return cards
 }

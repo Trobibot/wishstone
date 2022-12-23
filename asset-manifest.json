@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wishstone/static/css/main.ed4a81ee.css",
+    "main.js": "/wishstone/static/js/main.d9e69c90.js",
+    "index.html": "/wishstone/index.html",
+    "main.ed4a81ee.css.map": "/wishstone/static/css/main.ed4a81ee.css.map",
+    "main.d9e69c90.js.map": "/wishstone/static/js/main.d9e69c90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed4a81ee.css",
+    "static/js/main.d9e69c90.js"
+  ]
+}
